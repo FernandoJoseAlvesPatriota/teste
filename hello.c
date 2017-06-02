@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "fat.h"
 
 int main() {
-	printf("hello world!");
+	printf(fat(3));
 	return 0;
 }
